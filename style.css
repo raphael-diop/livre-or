@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    font-family: 'Barlow', sans-serif;
+}
+main{
+    min-height: 100vh;
+}
+
+.headerPhoto{
+    width: 100%;
+    height: 90vh;
+    background-image: url(https://ledrenche.ouest-france.fr/wp-content/uploads/Zemmour.jpg);
+    background-image: center ;
+    background-size: cover;
+    margin-top: 90px;
+    
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Barlow', sans-serif;
+    color: white;
+}
+
+
+
+nav{
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    top: 0px;
+}
+
+nav ul{
+    padding: 0%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+nav ul li{
+    margin-top: 30px;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.containerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+    padding: 100px;
+    box-shadow: 10px 10px 10px 10px lightgrey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+
+/* IMAGE WALLPAPER INSCRIPTION*/
+
+
+.bodyInscription{
+    background-image: url(https://img.lemde.fr/2021/06/09/0/0/5168/2580/1440/720/60/0/66feb26_68893353-000-98q6yj.jpg);
+    background-size: cover;
+}
+
+
+/*IMAGE WALLPAPER CONNEXION*/
+
+.bodyConnexion{
+    background-image: url(https://static.lexpress.fr/medias_12291/w_1000,h_563,c_fill,g_north/v1613129153/3632-zemmour-chap-3_6293184.jpg);
+    background-size: cover;
+} 
+
+.modifProf{
+    font-family: 'Barlow', sans-serif;
+    border: solid;
+    border-radius: 15px;
+    padding: 5px;   
+   
+}
+
+.commentaire{
+    width: 350px;
+    height: 350px;
+    border-radius :15px;
+}
+
+
+/*IMAGE WALLPAPER profil*/
+
+.bodyProfil{
+    background-image: url(https://laregledujeu.org/files/2021/10/Eric-Zemmour_candidat-non-declare.png);
+    background-image: cover;
+}
+
+
+
+/*///////Commentaire//////*/
+
+
+ .bodyCommentaire{
+    background-image: url(https://cdn-europe1.lanmedia.fr/var/europe1/storage/images/europe1/politique/marine-le-pen-face-a-eric-zemmour-ce-sera-un-exercice-complique-4066238/57611084-1-fre-FR/Marine-Le-Pen-face-a-Eric-Zemmour-Ce-sera-un-exercice-complique.jpg);
+    background-size: cover;
+} 
+
+/*//////livreor////////*/
+
+.bodyLivre{
+    background-image: url(https://cdn-europe1.lanmedia.fr/var/europe1/storage/images/europe1/politique/meeting-deric-zemmour-les-militants-conquis-4080842/57932406-3-fre-FR/Meeting-d-Eric-Zemmour-les-militants-conquis.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-position: right 50px; ;
+}
+
+
+.mainLivre{
+    margin-top: 150px;
+    margin-left: 50px;
+    color: snow;
+}
+
+
+
+
+
+
+/*//////////Formulaire//////////*/
+
+.formContainer{
+    height: 700px;
+    margin-left: 33%;
+    width: 550px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px ;
+    color: black;
+    margin-bottom: 50px;
+    background-color: snow;
+}
+
+.zonetext{
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+
+
+
+/*//////FOOTER////////*/
+
+
+.container{
+    max-width: 1170px;
+    bottom: 0px;
+  
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+  background-color: #080808;
+  padding: 70px 0;
+  bottom: 0px;
+}
+.column{
+   width: 25%;
+   padding: 0 15px;
+}
+.column h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.column h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #ed1313;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.column ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.column ul li a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+
+
