@@ -6,7 +6,7 @@
                 <ul>
                     <li><a href="file:///C:/Users/rapha/Downloads/index%20(2).html#">Nos services</a></li>
                     <li><a href="file:///C:/Users/rapha/Downloads/index%20(2).html#">Politique de confidentialité</a></li>
-                    <li><a href="https://github.com/raphael-diop/moduledeconnexion">repos Github</a></li>
+                    <li><a href="https://github.com/raphael-diop/livre-or">repos Github</a></li>
 
                 </ul>
             </div>
