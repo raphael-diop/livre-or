@@ -1,7 +1,7 @@
 <?php
 session_start();
 // // SE CONNECTER A LA BASE DE DONNEE
-$bdd = mysqli_connect('localhost', 'root', '', 'livreor');
+$bdd = mysqli_connect('localhost:3306', 'raphael-diop2', 'Legende456@', 'livreor');
 // // ENCODER LA BASE DE DONNEE
  mysqli_set_charset($bdd , 'utf-8');
 $message = "";

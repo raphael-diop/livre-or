@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$bdd = mysqli_connect('localhost', 'root', '', 'livreor');
+$bdd = mysqli_connect('localhost:3306', 'raphael-diop2', 'Legende456@', 'livreor');
 mysqli_set_charset($bdd, 'utf8');
 
 // requete recupération commentaire + dates
